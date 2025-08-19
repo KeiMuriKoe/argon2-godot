@@ -1,10 +1,10 @@
 # Godot Argon2 GDExtension
 
-A simple [Godot](https://godotengine.org/) plugin (GDExtension) that adds password hashing and verification using the [Argon2](https://crates.io/crates/argon2) algorithm.  
+A simple [Godot](https://godotengine.org/) plugin (GDExtension) that adds password hashing and verification using the [Argon2 rust lib](https://crates.io/crates/argon2) algorithm.  
 Under the hood, it's a Rust binding compiled into a dynamic library.
 
 ## Features
-- Password hashing with Argon2.
+- Password hashing with [Argon2](https://en.wikipedia.org/wiki/Argon2).
 - Password verification against an existing hash.
 - Cross-platform (Windows, Linux, macOS(need build)).
 
