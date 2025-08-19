@@ -12,6 +12,8 @@ Under the hood, it's a Rust binding compiled into a dynamic library.
 1. Download the archive for your operating system from the **Releases** section.
 2. Extract it into the `addons` folder in the root of your Godot project.
 
+![alt text]({BA7F71CA-EE18-4D03-822C-F4456C1312D4}.png)
+
 ## Usage
 In GDScript you can call the plugin methods directly:
 
