@@ -18,6 +18,6 @@ Under the hood, it's a Rust binding compiled into a dynamic library.
 In GDScript you can call the plugin methods directly:
 
 ```gdscript
-var hash = ArgonExtension.hash_password("my_secret_password")
-var is_valid = ArgonExtension.verify_password(hash,"my_secret_password")
+var hash: String = ArgonExtension.hash_password("my_secret_password")
+var is_valid: bool = ArgonExtension.verify_password(hash,"my_secret_password")
 print("Password valid? ", is_valid)
