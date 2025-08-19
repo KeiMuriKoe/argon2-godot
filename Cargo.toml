@@ -1,0 +1,14 @@
+[package]
+name = "rust"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+godot = { version = "0.3.5", features = ["register-docs"] }
+argon2 = "0.5.3"
+rand = "0.8.5"
+
+
+[lib]
+crate-type = ["cdylib"] # Compile this crate to a dynamic C library.
