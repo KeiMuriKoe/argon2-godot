@@ -12,7 +12,7 @@ Under the hood, it's a Rust binding compiled into a dynamic library.
 1. Download the archive for your operating system from the **Releases** section.
 2. Extract it into the `addons` folder in the root of your Godot project.
 
-![alt text]({BA7F71CA-EE18-4D03-822C-F4456C1312D4}.png)
+<a href="https://ibb.co/0jDHqWDV"><img src="https://i.ibb.co/gMjkyXjF/BA7-F71-CA-EE18-4-D03-822-C-F4456-C1312-D4.png" alt="BA7-F71-CA-EE18-4-D03-822-C-F4456-C1312-D4" border="0"></a>
 
 ## Usage
 In GDScript you can call the plugin methods directly:
